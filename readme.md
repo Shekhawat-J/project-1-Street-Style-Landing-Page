@@ -1,9 +1,9 @@
 # Street Style Landing Page
 
 ### Link's
-[Live Link](https://saas-landing-page-ui.netlify.app/)
+[Live Link](https://street-style-ui.netlify.app/)
 
-[GitHub Link](https://github.com/Shekhawat-J/project-13-SAAS-Landing-Page)
+[GitHub Link](https://github.com/Shekhawat-J/project-1-Street-Style-Landing-Page)
 
 #
 
