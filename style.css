@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    padding: 30px 50px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: aquamarine; */
+    height: 15vh;
+}
+
+.brand-image img{
+    width: 100px;
+    height: 40px;
+    /* margin-top: 0;
+    margin-left: 0; */
+}
+
+.list-item {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: Orbitron;
+    font-weight: 400;
+}
+
+.list-item:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.button-group{
+    display: flex;
+    padding: 20px 20px;
+    /* align-items: center; */
+}
+.search-icon{
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.nav-button {
+    font-size: 20px;
+    padding: 0 30px;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-family: Poppins;
+}
+
+/* hero Banner section */
+.main{
+    display: flex;
+}
+
+.col{
+    position: relative;
+}
+.square img{
+    position: absolute;
+    height: 350px;
+    top: 150px;
+    left: 85px;
+
+}
+/* .person-hero-image{
+    position: relative;
+    top: -450px;
+} */
+.person-hero-image img{
+    position: absolute;
+    top:0%;
+    height:450px;
+}
+
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    position: absolute;
+    left: 400px;
+}
+
+.globe{
+    position: absolute;
+    left: 100px;
+    
+}
+.globe img{
+    height: 70px;
+}
+
+.star{
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.star img{
+    height: 70px;
+}
+
+
+
+.hero-heading{
+    position: absolute;
+    top: 120px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.hero-description{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.button-email{
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+.button-join{
+    position: absolute;
+    left: 440px;
+    top: 350px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 2px black;
+    border-radius: 5px;
+    color: #fff;
+    background-color: black;
+}
+
+.contact-heading{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+.icons{
+    position: absolute;
+    left: 350px;
+    top: 430px;
+    
+}
+
+  
